@@ -1,0 +1,13 @@
+python main.py \
+--model_type llm \
+--model_name glm-4 \
+--data_path ./datasets \
+--data_mode onehot \
+--dataset_name FrcSub \
+--log_path ./logs \
+--train_split 0.8 \
+--fewshot_num 4 \
+--fewshot_strategy first \
+--eval_strategy simple \
+--test_num 1 \
+--random_seed 42

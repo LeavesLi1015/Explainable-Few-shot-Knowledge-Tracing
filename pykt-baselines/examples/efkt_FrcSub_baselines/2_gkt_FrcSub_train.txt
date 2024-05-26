@@ -1,0 +1,179 @@
+2024-05-03 23:15:23 - main - said: load config files.
+Start init data
+FrcSub gkt {'assist2015': {'dpath': '../data/assist2015', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'algebra2005': {'dpath': '../data/algebra2005', 'num_q': 173113, 'num_c': 112, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2009': {'dpath': '../data/assist2009', 'num_q': 17737, 'num_c': 123, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'slepemapy': {'dpath': '../data/slepemapy', 'num_q': 2913, 'num_c': 1458, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2017': {'dpath': '../data/assist2017', 'num_q': 3162, 'num_c': 102, 'input_type': ['questions', 'concepts'], 'min_seq_len': 3, 'maxlen': 500, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2012': {'dpath': '../data/assist2012', 'num_q': 53070, 'num_c': 265, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'statics2011': {'dpath': '../data/statics2011', 'num_q': 0, 'num_c': 1223, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'junyi2015': {'dpath': '../data/junyi2015', 'num_q': 721, 'num_c': 39, 'input_type': ['questions', 'concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'bridge2algebra2006': {'dpath': '../data/bridge2algebra2006', 'num_q': 129263, 'num_c': 493, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet': {'dpath': '../data/ednet', 'num_q': 11901, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'nips_task34': {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'poj': {'dpath': '../data/poj', 'num_q': 0, 'num_c': 2748, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'peiyou': {'dpath': '../data/peiyou', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'train_valid_original_file': 'train_valid.csv', 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet5w': {'dpath': '../data/ednet5w', 'num_q': 12235, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'FrcSub': {'dpath': '../data/FrcSub', 'num_q': 20, 'num_c': 11, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'FrcSub_sparse': {'dpath': '../data/FrcSub_sparse', 'num_q': 20, 'num_c': 11, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'MOOCRadar': {'dpath': '../data/MOOCRadar', 'num_q': 2903, 'num_c': 3357, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'XES3G5M': {'dpath': '../data/XES3G5M', 'num_q': 8329, 'num_c': 1258, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}} 0 8
+2024-05-03 23:15:23 - main - said: init_dataset
+dataset_name:FrcSub
+Read data from processed file: ../data/FrcSub/train_valid_sequences.csv_0.pkl
+file path: ../data/FrcSub/train_valid_sequences.csv, qlen: 86, clen: 86, rlen: 86
+Read data from processed file: ../data/FrcSub/train_valid_sequences.csv_1_2_3_4.pkl
+file path: ../data/FrcSub/train_valid_sequences.csv, qlen: 343, clen: 343, rlen: 343
+params: {'dataset_name': 'FrcSub', 'model_name': 'gkt', 'emb_type': 'qid', 'save_dir': 'saved_model', 'seed': 42, 'fold': 0, 'learning_rate': 0.01, 'dropout': 0.5, 'hidden_dim': 64, 'graph_type': 'transition', 'use_wandb': 1, 'add_uuid': 1, 'emb_size': 64}, params_str: FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64
+Start training model: gkt, embtype: qid, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1, dataset_name: FrcSub
+model_config: {'learning_rate': 0.01, 'dropout': 0.5, 'hidden_dim': 64, 'graph_type': 'transition', 'use_wandb': 1, 'add_uuid': 1, 'emb_size': 64}
+train_config: {'batch_size': 8, 'num_epochs': 200, 'optimizer': 'adam', 'seq_len': 200}
+2024-05-03 23:15:23 - main - said: init_model
+model_name:gkt
+model is GKT(
+  (interaction_emb): Embedding(22, 64)
+  (emb_c): Embedding(12, 64, padding_idx=11)
+  (f_self): MLP(
+    (fc1): Linear(in_features=128, out_features=64, bias=True)
+    (fc2): Linear(in_features=64, out_features=64, bias=True)
+    (norm): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (f_neighbor_list): ModuleList(
+    (0-1): 2 x MLP(
+      (fc1): Linear(in_features=256, out_features=64, bias=True)
+      (fc2): Linear(in_features=64, out_features=64, bias=True)
+      (norm): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (erase_add_gate): EraseAddGate(
+    (erase): Linear(in_features=64, out_features=64, bias=True)
+    (add): Linear(in_features=64, out_features=64, bias=True)
+  )
+  (gru): GRUCell(64, 64)
+  (predict): Linear(in_features=64, out_features=1, bias=True)
+)
+2024-05-03 23:15:24 - main - said: train model
+2024-05-03 23:15:47 - train_model - said: Total train step is 10, the loss is 0.37814
+2024-05-03 23:16:09 - train_model - said: Total train step is 20, the loss is 0.2194
+2024-05-03 23:16:32 - train_model - said: Total train step is 30, the loss is 0.23512
+2024-05-03 23:16:54 - train_model - said: Total train step is 40, the loss is 0.19096
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 1, validauc: 0.9744, validacc: 0.8985, best epoch: 1, best auc: 0.9744, train loss: 0.29201428483006775, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:17:26 - train_model - said: Total train step is 50, the loss is 0.22507
+2024-05-03 23:17:48 - train_model - said: Total train step is 60, the loss is 0.19899
+2024-05-03 23:18:10 - train_model - said: Total train step is 70, the loss is 0.16205
+2024-05-03 23:18:32 - train_model - said: Total train step is 80, the loss is 0.20706
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 2, validauc: 0.9744, validacc: 0.8985, best epoch: 1, best auc: 0.9744, train loss: 0.17644041646397887, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:19:03 - train_model - said: Total train step is 90, the loss is 0.18638
+2024-05-03 23:19:25 - train_model - said: Total train step is 100, the loss is 0.12576
+2024-05-03 23:19:47 - train_model - said: Total train step is 110, the loss is 0.15622
+2024-05-03 23:20:09 - train_model - said: Total train step is 120, the loss is 0.16961
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 3, validauc: 0.9744, validacc: 0.8985, best epoch: 1, best auc: 0.9744, train loss: 0.16137222802235981, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:20:39 - train_model - said: Total train step is 130, the loss is 0.12829
+2024-05-03 23:21:01 - train_model - said: Total train step is 140, the loss is 0.15273
+2024-05-03 23:21:24 - train_model - said: Total train step is 150, the loss is 0.18722
+2024-05-03 23:21:46 - train_model - said: Total train step is 160, the loss is 0.19401
+2024-05-03 23:22:08 - train_model - said: Total train step is 170, the loss is 0.16902
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 4, validauc: 0.9791, validacc: 0.8647, best epoch: 4, best auc: 0.9791, train loss: 0.15827001341208424, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:22:38 - train_model - said: Total train step is 180, the loss is 0.1413
+2024-05-03 23:23:00 - train_model - said: Total train step is 190, the loss is 0.1725
+2024-05-03 23:23:22 - train_model - said: Total train step is 200, the loss is 0.11294
+2024-05-03 23:23:44 - train_model - said: Total train step is 210, the loss is 0.16277
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 5, validauc: 0.9819, validacc: 0.8915, best epoch: 5, best auc: 0.9819, train loss: 0.1538909038432687, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:24:15 - train_model - said: Total train step is 220, the loss is 0.15898
+2024-05-03 23:24:37 - train_model - said: Total train step is 230, the loss is 0.15094
+2024-05-03 23:24:59 - train_model - said: Total train step is 240, the loss is 0.16496
+2024-05-03 23:25:21 - train_model - said: Total train step is 250, the loss is 0.11451
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 6, validauc: 0.9819, validacc: 0.8915, best epoch: 5, best auc: 0.9819, train loss: 0.15193930887028387, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:25:51 - train_model - said: Total train step is 260, the loss is 0.15283
+2024-05-03 23:26:13 - train_model - said: Total train step is 270, the loss is 0.17153
+2024-05-03 23:26:35 - train_model - said: Total train step is 280, the loss is 0.16341
+2024-05-03 23:26:58 - train_model - said: Total train step is 290, the loss is 0.12121
+2024-05-03 23:27:20 - train_model - said: Total train step is 300, the loss is 0.12591
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 7, validauc: 0.9819, validacc: 0.8915, best epoch: 5, best auc: 0.9819, train loss: 0.14961718396343326, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:27:50 - train_model - said: Total train step is 310, the loss is 0.13272
+2024-05-03 23:28:12 - train_model - said: Total train step is 320, the loss is 0.16792
+2024-05-03 23:28:34 - train_model - said: Total train step is 330, the loss is 0.14507
+2024-05-03 23:28:56 - train_model - said: Total train step is 340, the loss is 0.11055
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 8, validauc: 0.9819, validacc: 0.8915, best epoch: 5, best auc: 0.9819, train loss: 0.1472221985698149, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:29:27 - train_model - said: Total train step is 350, the loss is 0.12384
+2024-05-03 23:29:49 - train_model - said: Total train step is 360, the loss is 0.16108
+2024-05-03 23:30:11 - train_model - said: Total train step is 370, the loss is 0.13443
+2024-05-03 23:30:33 - train_model - said: Total train step is 380, the loss is 0.18146
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 9, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.14396125659854178, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:31:03 - train_model - said: Total train step is 390, the loss is 0.13263
+2024-05-03 23:31:25 - train_model - said: Total train step is 400, the loss is 0.12275
+2024-05-03 23:31:48 - train_model - said: Total train step is 410, the loss is 0.14519
+2024-05-03 23:32:10 - train_model - said: Total train step is 420, the loss is 0.14932
+2024-05-03 23:32:32 - train_model - said: Total train step is 430, the loss is 0.13778
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 10, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.14160476878146627, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:33:02 - train_model - said: Total train step is 440, the loss is 0.16073
+2024-05-03 23:33:24 - train_model - said: Total train step is 450, the loss is 0.1374
+2024-05-03 23:33:46 - train_model - said: Total train step is 460, the loss is 0.12363
+2024-05-03 23:34:08 - train_model - said: Total train step is 470, the loss is 0.1708
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 11, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.1416219063215055, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:34:39 - train_model - said: Total train step is 480, the loss is 0.1829
+2024-05-03 23:35:01 - train_model - said: Total train step is 490, the loss is 0.15156
+2024-05-03 23:35:23 - train_model - said: Total train step is 500, the loss is 0.098947
+2024-05-03 23:35:45 - train_model - said: Total train step is 510, the loss is 0.14389
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 12, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.13993085768365632, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:36:15 - train_model - said: Total train step is 520, the loss is 0.15513
+2024-05-03 23:36:38 - train_model - said: Total train step is 530, the loss is 0.10556
+2024-05-03 23:37:00 - train_model - said: Total train step is 540, the loss is 0.13875
+2024-05-03 23:37:22 - train_model - said: Total train step is 550, the loss is 0.14749
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 13, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.13878042471741941, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:37:52 - train_model - said: Total train step is 560, the loss is 0.10749
+2024-05-03 23:38:14 - train_model - said: Total train step is 570, the loss is 0.128
+2024-05-03 23:38:36 - train_model - said: Total train step is 580, the loss is 0.15988
+2024-05-03 23:38:58 - train_model - said: Total train step is 590, the loss is 0.14587
+2024-05-03 23:39:21 - train_model - said: Total train step is 600, the loss is 0.15756
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 14, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.1393616603828601, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:39:51 - train_model - said: Total train step is 610, the loss is 0.14121
+2024-05-03 23:40:13 - train_model - said: Total train step is 620, the loss is 0.15917
+2024-05-03 23:40:35 - train_model - said: Total train step is 630, the loss is 0.11176
+2024-05-03 23:40:57 - train_model - said: Total train step is 640, the loss is 0.17745
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 15, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.1393912640958007, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:41:28 - train_model - said: Total train step is 650, the loss is 0.15316
+2024-05-03 23:41:50 - train_model - said: Total train step is 660, the loss is 0.13422
+2024-05-03 23:42:12 - train_model - said: Total train step is 670, the loss is 0.14227
+2024-05-03 23:42:34 - train_model - said: Total train step is 680, the loss is 0.11593
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 16, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.1374255007096903, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:43:04 - train_model - said: Total train step is 690, the loss is 0.14389
+2024-05-03 23:43:26 - train_model - said: Total train step is 700, the loss is 0.14656
+2024-05-03 23:43:48 - train_model - said: Total train step is 710, the loss is 0.15076
+2024-05-03 23:44:11 - train_model - said: Total train step is 720, the loss is 0.095805
+2024-05-03 23:44:33 - train_model - said: Total train step is 730, the loss is 0.12183
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 17, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.13776620590852046, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:45:03 - train_model - said: Total train step is 740, the loss is 0.12308
+2024-05-03 23:45:25 - train_model - said: Total train step is 750, the loss is 0.16105
+2024-05-03 23:45:47 - train_model - said: Total train step is 760, the loss is 0.14278
+2024-05-03 23:46:09 - train_model - said: Total train step is 770, the loss is 0.11093
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 18, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.1368051349283742, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+2024-05-03 23:46:39 - train_model - said: Total train step is 780, the loss is 0.11483
+2024-05-03 23:47:02 - train_model - said: Total train step is 790, the loss is 0.15251
+2024-05-03 23:47:24 - train_model - said: Total train step is 800, the loss is 0.12619
+2024-05-03 23:47:46 - train_model - said: Total train step is 810, the loss is 0.15716
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 19, validauc: 0.9842, validacc: 0.9055, best epoch: 9, best auc: 0.9842, train loss: 0.1353750457366717, emb_type: qid, model: gkt, save_dir: saved_model/FrcSub_gkt_qid_saved_model_42_0_0.01_0.5_64_transition_1_1_64_1787e207-67bd-4091-8a57-b6ca982438c1
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+fold	modelname	embtype	testauc	testacc	window_testauc	window_testacc	validauc	validacc	best_epoch
+0	gkt	qid	-1	-1	-1	-1	0.9842097104085457	0.9054968287526427	9
+end:2024-05-03 23:48:09.962941

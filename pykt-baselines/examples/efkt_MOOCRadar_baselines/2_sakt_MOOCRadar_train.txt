@@ -1,0 +1,231 @@
+2024-04-23 18:37:23 - main - said: load config files.
+Start init data
+MOOCRadar sakt {'assist2015': {'dpath': '../data/assist2015', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'algebra2005': {'dpath': '../data/algebra2005', 'num_q': 173113, 'num_c': 112, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2009': {'dpath': '../data/assist2009', 'num_q': 17737, 'num_c': 123, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'slepemapy': {'dpath': '../data/slepemapy', 'num_q': 2913, 'num_c': 1458, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2017': {'dpath': '../data/assist2017', 'num_q': 3162, 'num_c': 102, 'input_type': ['questions', 'concepts'], 'min_seq_len': 3, 'maxlen': 500, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2012': {'dpath': '../data/assist2012', 'num_q': 53070, 'num_c': 265, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'statics2011': {'dpath': '../data/statics2011', 'num_q': 0, 'num_c': 1223, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'junyi2015': {'dpath': '../data/junyi2015', 'num_q': 721, 'num_c': 39, 'input_type': ['questions', 'concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'bridge2algebra2006': {'dpath': '../data/bridge2algebra2006', 'num_q': 129263, 'num_c': 493, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet': {'dpath': '../data/ednet', 'num_q': 11901, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'nips_task34': {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'poj': {'dpath': '../data/poj', 'num_q': 0, 'num_c': 2748, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'peiyou': {'dpath': '../data/peiyou', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'train_valid_original_file': 'train_valid.csv', 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet5w': {'dpath': '../data/ednet5w', 'num_q': 12235, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'FrcSub': {'dpath': '../data/FrcSub', 'num_q': 20, 'num_c': 11, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'FrcSub_sparse': {'dpath': '../data/FrcSub_sparse', 'num_q': 20, 'num_c': 11, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'MOOCRadar': {'dpath': '../data/MOOCRadar', 'num_q': 2903, 'num_c': 3357, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'XES3G5M': {'dpath': '../data/XES3G5M', 'num_q': 8329, 'num_c': 1258, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}} 0 64
+2024-04-23 18:37:23 - main - said: init_dataset
+dataset_name:MOOCRadar
+Read data from processed file: ../data/MOOCRadar/train_valid_sequences.csv_0.pkl
+file path: ../data/MOOCRadar/train_valid_sequences.csv, qlen: 2828, clen: 2828, rlen: 2828
+Read data from processed file: ../data/MOOCRadar/train_valid_sequences.csv_1_2_3_4.pkl
+file path: ../data/MOOCRadar/train_valid_sequences.csv, qlen: 11374, clen: 11374, rlen: 11374
+params: {'dataset_name': 'MOOCRadar', 'model_name': 'sakt', 'emb_type': 'qid', 'save_dir': 'saved_model', 'seed': 42, 'fold': 0, 'dropout': 0.2, 'emb_size': 64, 'learning_rate': 0.001, 'num_attn_heads': 4, 'num_en': 1, 'use_wandb': 1, 'add_uuid': 1}, params_str: MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1
+Start training model: sakt, embtype: qid, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a, dataset_name: MOOCRadar
+model_config: {'dropout': 0.2, 'emb_size': 64, 'learning_rate': 0.001, 'num_attn_heads': 4, 'num_en': 1, 'use_wandb': 1, 'add_uuid': 1}
+train_config: {'batch_size': 64, 'num_epochs': 200, 'optimizer': 'adam', 'seq_len': 200}
+2024-04-23 18:37:23 - main - said: init_model
+model_name:sakt
+model is SAKT(
+  (interaction_emb): Embedding(6714, 64)
+  (exercise_emb): Embedding(3357, 64)
+  (position_emb): Embedding(200, 64)
+  (blocks): ModuleList(
+    (0): Blocks(
+      (attn): MultiheadAttention(
+        (out_proj): NonDynamicallyQuantizableLinear(in_features=64, out_features=64, bias=True)
+      )
+      (attn_dropout): Dropout(p=0.2, inplace=False)
+      (attn_layer_norm): LayerNorm((64,), eps=1e-05, elementwise_affine=True)
+      (FFN): transformer_FFN(
+        (FFN): Sequential(
+          (0): Linear(in_features=64, out_features=64, bias=True)
+          (1): ReLU()
+          (2): Dropout(p=0.2, inplace=False)
+          (3): Linear(in_features=64, out_features=64, bias=True)
+        )
+      )
+      (FFN_dropout): Dropout(p=0.2, inplace=False)
+      (FFN_layer_norm): LayerNorm((64,), eps=1e-05, elementwise_affine=True)
+    )
+  )
+  (dropout_layer): Dropout(p=0.2, inplace=False)
+  (pred): Linear(in_features=64, out_features=1, bias=True)
+)
+2024-04-23 18:37:23 - main - said: train model
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 1, validauc: 0.8295, validacc: 0.833, best epoch: 1, best auc: 0.8295, train loss: 0.4610846673912807, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 2, validauc: 0.8658, validacc: 0.8508, best epoch: 2, best auc: 0.8658, train loss: 0.375341710045505, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 3, validauc: 0.8829, validacc: 0.8612, best epoch: 3, best auc: 0.8829, train loss: 0.3479397698009432, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 4, validauc: 0.8938, validacc: 0.8686, best epoch: 4, best auc: 0.8938, train loss: 0.3299441722330924, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 5, validauc: 0.9023, validacc: 0.8744, best epoch: 5, best auc: 0.9023, train loss: 0.31588881334819613, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 6, validauc: 0.9095, validacc: 0.8792, best epoch: 6, best auc: 0.9095, train loss: 0.3036716713216346, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 7, validauc: 0.9152, validacc: 0.8834, best epoch: 7, best auc: 0.9152, train loss: 0.2929761460776196, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 8, validauc: 0.9203, validacc: 0.8869, best epoch: 8, best auc: 0.9203, train loss: 0.2834187562309486, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 9, validauc: 0.9247, validacc: 0.8902, best epoch: 9, best auc: 0.9247, train loss: 0.2751498412851876, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 10, validauc: 0.9287, validacc: 0.8935, best epoch: 10, best auc: 0.9287, train loss: 0.26681923229162563, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 11, validauc: 0.932, validacc: 0.8961, best epoch: 11, best auc: 0.932, train loss: 0.25990014271869377, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 12, validauc: 0.9347, validacc: 0.8982, best epoch: 12, best auc: 0.9347, train loss: 0.25349989255193855, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 13, validauc: 0.9372, validacc: 0.9001, best epoch: 13, best auc: 0.9372, train loss: 0.2473565635173534, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 14, validauc: 0.9394, validacc: 0.9019, best epoch: 14, best auc: 0.9394, train loss: 0.2420711496439403, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 15, validauc: 0.9416, validacc: 0.9034, best epoch: 15, best auc: 0.9416, train loss: 0.23698341680162244, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 16, validauc: 0.9434, validacc: 0.905, best epoch: 16, best auc: 0.9434, train loss: 0.23252014993059109, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 17, validauc: 0.945, validacc: 0.9062, best epoch: 17, best auc: 0.945, train loss: 0.2281152735927575, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 18, validauc: 0.9464, validacc: 0.9073, best epoch: 18, best auc: 0.9464, train loss: 0.2238579654290788, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 19, validauc: 0.9478, validacc: 0.9088, best epoch: 19, best auc: 0.9478, train loss: 0.22052840142688188, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 20, validauc: 0.9491, validacc: 0.9099, best epoch: 20, best auc: 0.9491, train loss: 0.21675031123947408, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 21, validauc: 0.9491, validacc: 0.9099, best epoch: 20, best auc: 0.9491, train loss: 0.21333136455629842, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 22, validauc: 0.9512, validacc: 0.9119, best epoch: 22, best auc: 0.9512, train loss: 0.21028477761835274, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 23, validauc: 0.9522, validacc: 0.913, best epoch: 23, best auc: 0.9522, train loss: 0.2074779951318428, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 24, validauc: 0.9532, validacc: 0.9137, best epoch: 24, best auc: 0.9532, train loss: 0.20410465427251784, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 25, validauc: 0.9532, validacc: 0.9137, best epoch: 24, best auc: 0.9532, train loss: 0.2013764177754694, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 26, validauc: 0.9551, validacc: 0.9157, best epoch: 26, best auc: 0.9551, train loss: 0.19881552516857243, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 27, validauc: 0.9551, validacc: 0.9157, best epoch: 26, best auc: 0.9551, train loss: 0.19637248882813998, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 28, validauc: 0.9569, validacc: 0.9174, best epoch: 28, best auc: 0.9569, train loss: 0.1937073815867879, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 29, validauc: 0.9569, validacc: 0.9174, best epoch: 28, best auc: 0.9569, train loss: 0.1913386429771223, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 30, validauc: 0.9585, validacc: 0.9191, best epoch: 30, best auc: 0.9585, train loss: 0.18903436402212795, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 31, validauc: 0.9585, validacc: 0.9191, best epoch: 30, best auc: 0.9585, train loss: 0.18660982613555185, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 32, validauc: 0.9598, validacc: 0.9203, best epoch: 32, best auc: 0.9598, train loss: 0.18492676105568218, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 33, validauc: 0.9598, validacc: 0.9203, best epoch: 32, best auc: 0.9598, train loss: 0.1826451453937436, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 34, validauc: 0.961, validacc: 0.9218, best epoch: 34, best auc: 0.961, train loss: 0.18066679606385447, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 35, validauc: 0.961, validacc: 0.9218, best epoch: 34, best auc: 0.961, train loss: 0.1786650951343405, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 36, validauc: 0.9621, validacc: 0.9231, best epoch: 36, best auc: 0.9621, train loss: 0.1768476543082102, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 37, validauc: 0.9621, validacc: 0.9231, best epoch: 36, best auc: 0.9621, train loss: 0.17528310399715694, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 38, validauc: 0.9621, validacc: 0.9231, best epoch: 36, best auc: 0.9621, train loss: 0.17376018283491404, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 39, validauc: 0.9634, validacc: 0.9246, best epoch: 39, best auc: 0.9634, train loss: 0.17218979005120497, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 40, validauc: 0.9634, validacc: 0.9246, best epoch: 39, best auc: 0.9634, train loss: 0.17063554441153736, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 41, validauc: 0.9634, validacc: 0.9246, best epoch: 39, best auc: 0.9634, train loss: 0.16913900319164166, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 42, validauc: 0.9646, validacc: 0.9257, best epoch: 42, best auc: 0.9646, train loss: 0.16759145938797315, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 43, validauc: 0.9646, validacc: 0.9257, best epoch: 42, best auc: 0.9646, train loss: 0.16668625112959345, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 44, validauc: 0.9646, validacc: 0.9257, best epoch: 42, best auc: 0.9646, train loss: 0.1655080806231269, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 45, validauc: 0.9646, validacc: 0.9257, best epoch: 42, best auc: 0.9646, train loss: 0.1644288332580993, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 46, validauc: 0.9657, validacc: 0.9273, best epoch: 46, best auc: 0.9657, train loss: 0.16357603114079755, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 47, validauc: 0.9657, validacc: 0.9273, best epoch: 46, best auc: 0.9657, train loss: 0.16244540743083308, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 48, validauc: 0.9657, validacc: 0.9273, best epoch: 46, best auc: 0.9657, train loss: 0.16166713575821456, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 49, validauc: 0.9657, validacc: 0.9273, best epoch: 46, best auc: 0.9657, train loss: 0.1604411625776944, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 50, validauc: 0.9657, validacc: 0.9273, best epoch: 46, best auc: 0.9657, train loss: 0.1601048448581697, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 51, validauc: 0.9657, validacc: 0.9273, best epoch: 46, best auc: 0.9657, train loss: 0.15896578734167194, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 52, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1582999170725921, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 53, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.15757234679335586, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 54, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.15687143556253072, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 55, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1560450174119656, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 56, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1553274462154394, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 57, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1550219400056864, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 58, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1542090060581697, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 59, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.15376964773095317, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 60, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1533046201801492, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 61, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.1530587738062868, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (291175,), ps.shape: (291175,)
+Epoch: 62, validauc: 0.9668, validacc: 0.9281, best epoch: 52, best auc: 0.9668, train loss: 0.15252449616477987, emb_type: qid, model: sakt, save_dir: saved_model/MOOCRadar_sakt_qid_saved_model_42_0_0.2_64_0.001_4_1_1_1_30b9d2e3-df55-4203-af0d-029f3821903a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+fold	modelname	embtype	testauc	testacc	window_testauc	window_testacc	validauc	validacc	best_epoch
+0	sakt	qid	-1	-1	-1	-1	0.9667842814901282	0.9280913539967374	52
+end:2024-04-23 18:42:29.859175

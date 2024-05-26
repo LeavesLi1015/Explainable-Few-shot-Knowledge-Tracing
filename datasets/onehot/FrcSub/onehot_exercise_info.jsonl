@@ -1,0 +1,20 @@
+{"exercise_id": "1", "skill_ids": ["4", "6", "7"]}
+{"exercise_id": "2", "skill_ids": ["4", "7"]}
+{"exercise_id": "3", "skill_ids": ["4", "7"]}
+{"exercise_id": "4", "skill_ids": ["2", "3", "5", "7"]}
+{"exercise_id": "5", "skill_ids": ["2", "4", "7", "8"]}
+{"exercise_id": "6", "skill_ids": ["7"]}
+{"exercise_id": "7", "skill_ids": ["1", "2", "7"]}
+{"exercise_id": "8", "skill_ids": ["7"]}
+{"exercise_id": "9", "skill_ids": ["2"]}
+{"exercise_id": "10", "skill_ids": ["2", "5", "7", "8"]}
+{"exercise_id": "11", "skill_ids": ["2", "5", "7"]}
+{"exercise_id": "12", "skill_ids": ["7", "8"]}
+{"exercise_id": "13", "skill_ids": ["2", "4", "5", "7"]}
+{"exercise_id": "14", "skill_ids": ["2", "7"]}
+{"exercise_id": "15", "skill_ids": ["1", "7"]}
+{"exercise_id": "16", "skill_ids": ["2", "7"]}
+{"exercise_id": "17", "skill_ids": ["2", "5", "7"]}
+{"exercise_id": "18", "skill_ids": ["2", "5", "6", "7"]}
+{"exercise_id": "19", "skill_ids": ["1", "2", "3", "5", "7"]}
+{"exercise_id": "20", "skill_ids": ["2", "3", "5", "7"]}

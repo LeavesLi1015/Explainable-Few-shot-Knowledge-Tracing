@@ -1,0 +1,268 @@
+2024-04-25 11:03:50 - main - said: load config files.
+Start init data
+FrcSub dkvmn {'assist2015': {'dpath': '../data/assist2015', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'algebra2005': {'dpath': '../data/algebra2005', 'num_q': 173113, 'num_c': 112, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2009': {'dpath': '../data/assist2009', 'num_q': 17737, 'num_c': 123, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'slepemapy': {'dpath': '../data/slepemapy', 'num_q': 2913, 'num_c': 1458, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2017': {'dpath': '../data/assist2017', 'num_q': 3162, 'num_c': 102, 'input_type': ['questions', 'concepts'], 'min_seq_len': 3, 'maxlen': 500, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2012': {'dpath': '../data/assist2012', 'num_q': 53070, 'num_c': 265, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'statics2011': {'dpath': '../data/statics2011', 'num_q': 0, 'num_c': 1223, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'junyi2015': {'dpath': '../data/junyi2015', 'num_q': 721, 'num_c': 39, 'input_type': ['questions', 'concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'bridge2algebra2006': {'dpath': '../data/bridge2algebra2006', 'num_q': 129263, 'num_c': 493, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet': {'dpath': '../data/ednet', 'num_q': 11901, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'nips_task34': {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'poj': {'dpath': '../data/poj', 'num_q': 0, 'num_c': 2748, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'peiyou': {'dpath': '../data/peiyou', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'train_valid_original_file': 'train_valid.csv', 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet5w': {'dpath': '../data/ednet5w', 'num_q': 12235, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'FrcSub': {'dpath': '../data/FrcSub', 'num_q': 20, 'num_c': 11, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'FrcSub_sparse': {'dpath': '../data/FrcSub_sparse', 'num_q': 20, 'num_c': 11, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'MOOCRadar': {'dpath': '../data/MOOCRadar', 'num_q': 2903, 'num_c': 3357, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'XES3G5M': {'dpath': '../data/XES3G5M', 'num_q': 8329, 'num_c': 1258, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}} 0 64
+2024-04-25 11:03:50 - main - said: init_dataset
+dataset_name:FrcSub
+Read data from processed file: ../data/FrcSub/train_valid_sequences.csv_0.pkl
+file path: ../data/FrcSub/train_valid_sequences.csv, qlen: 86, clen: 86, rlen: 86
+Read data from processed file: ../data/FrcSub/train_valid_sequences.csv_1_2_3_4.pkl
+file path: ../data/FrcSub/train_valid_sequences.csv, qlen: 343, clen: 343, rlen: 343
+params: {'dataset_name': 'FrcSub', 'model_name': 'dkvmn', 'emb_type': 'qid', 'save_dir': 'saved_model', 'seed': 42, 'fold': 0, 'dropout': 0.2, 'dim_s': 64, 'learning_rate': 0.001, 'size_m': 50, 'use_wandb': 1, 'add_uuid': 1}, params_str: FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1
+Start training model: dkvmn, embtype: qid, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a, dataset_name: FrcSub
+model_config: {'dropout': 0.2, 'dim_s': 64, 'learning_rate': 0.001, 'size_m': 50, 'use_wandb': 1, 'add_uuid': 1}
+train_config: {'batch_size': 64, 'num_epochs': 200, 'optimizer': 'adam', 'seq_len': 200}
+2024-04-25 11:03:50 - main - said: init_model
+model_name:dkvmn
+model is DKVMN(
+  (k_emb_layer): Embedding(11, 64)
+  (v_emb_layer): Embedding(22, 64)
+  (f_layer): Linear(in_features=128, out_features=64, bias=True)
+  (dropout_layer): Dropout(p=0.2, inplace=False)
+  (p_layer): Linear(in_features=64, out_features=1, bias=True)
+  (e_layer): Linear(in_features=64, out_features=64, bias=True)
+  (a_layer): Linear(in_features=64, out_features=64, bias=True)
+)
+2024-04-25 11:03:51 - main - said: train model
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 1, validauc: 0.7376, validacc: 0.6607, best epoch: 1, best auc: 0.7376, train loss: 0.6819792828004753, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 2, validauc: 0.8109, validacc: 0.7036, best epoch: 2, best auc: 0.8109, train loss: 0.6302919591681323, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 3, validauc: 0.8346, validacc: 0.7436, best epoch: 3, best auc: 0.8346, train loss: 0.5685751832561025, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 4, validauc: 0.847, validacc: 0.8019, best epoch: 4, best auc: 0.847, train loss: 0.5219021035810156, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 5, validauc: 0.8584, validacc: 0.7989, best epoch: 5, best auc: 0.8584, train loss: 0.5021154976178563, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 6, validauc: 0.8694, validacc: 0.8089, best epoch: 6, best auc: 0.8694, train loss: 0.48177716155837563, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 7, validauc: 0.8787, validacc: 0.8192, best epoch: 7, best auc: 0.8787, train loss: 0.46271890990302705, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 8, validauc: 0.8873, validacc: 0.8281, best epoch: 8, best auc: 0.8873, train loss: 0.44664852273367295, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 9, validauc: 0.898, validacc: 0.8345, best epoch: 9, best auc: 0.898, train loss: 0.4289696360621041, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 10, validauc: 0.9128, validacc: 0.8522, best epoch: 10, best auc: 0.9128, train loss: 0.40518340704076933, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 11, validauc: 0.9264, validacc: 0.8655, best epoch: 11, best auc: 0.9264, train loss: 0.3739351596269547, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 12, validauc: 0.9326, validacc: 0.8586, best epoch: 12, best auc: 0.9326, train loss: 0.3496871401216853, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 13, validauc: 0.9394, validacc: 0.87, best epoch: 13, best auc: 0.9394, train loss: 0.33174205852145827, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 14, validauc: 0.9451, validacc: 0.8727, best epoch: 14, best auc: 0.9451, train loss: 0.31642504027802826, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 15, validauc: 0.95, validacc: 0.8799, best epoch: 15, best auc: 0.95, train loss: 0.30172387044094806, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 16, validauc: 0.9552, validacc: 0.8835, best epoch: 16, best auc: 0.9552, train loss: 0.2898418144193817, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 17, validauc: 0.9592, validacc: 0.8905, best epoch: 17, best auc: 0.9592, train loss: 0.27901675904552786, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 18, validauc: 0.9627, validacc: 0.8953, best epoch: 18, best auc: 0.9627, train loss: 0.2681977013054336, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 19, validauc: 0.9658, validacc: 0.8981, best epoch: 19, best auc: 0.9658, train loss: 0.259723030271968, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 20, validauc: 0.9678, validacc: 0.9032, best epoch: 20, best auc: 0.9678, train loss: 0.24920347716887922, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 21, validauc: 0.9689, validacc: 0.9074, best epoch: 21, best auc: 0.9689, train loss: 0.24289054093774398, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 22, validauc: 0.9689, validacc: 0.9074, best epoch: 21, best auc: 0.9689, train loss: 0.2361392654746164, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 23, validauc: 0.9701, validacc: 0.9068, best epoch: 23, best auc: 0.9701, train loss: 0.2325324608610014, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 24, validauc: 0.9701, validacc: 0.9068, best epoch: 23, best auc: 0.9701, train loss: 0.22840951974574167, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 25, validauc: 0.9718, validacc: 0.9101, best epoch: 25, best auc: 0.9718, train loss: 0.225612554654084, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 26, validauc: 0.9718, validacc: 0.9101, best epoch: 25, best auc: 0.9718, train loss: 0.22312689499760766, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 27, validauc: 0.973, validacc: 0.9125, best epoch: 27, best auc: 0.973, train loss: 0.22037224559741256, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 28, validauc: 0.973, validacc: 0.9125, best epoch: 27, best auc: 0.973, train loss: 0.21663695220557536, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 29, validauc: 0.973, validacc: 0.9125, best epoch: 27, best auc: 0.973, train loss: 0.21554366178422238, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 30, validauc: 0.9743, validacc: 0.9137, best epoch: 30, best auc: 0.9743, train loss: 0.21377478177282136, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 31, validauc: 0.9743, validacc: 0.9137, best epoch: 30, best auc: 0.9743, train loss: 0.21154452659281053, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 32, validauc: 0.9743, validacc: 0.9137, best epoch: 30, best auc: 0.9743, train loss: 0.21004592098159106, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 33, validauc: 0.9755, validacc: 0.9148, best epoch: 33, best auc: 0.9755, train loss: 0.20849525863458837, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 34, validauc: 0.9755, validacc: 0.9148, best epoch: 33, best auc: 0.9755, train loss: 0.20722440450679383, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 35, validauc: 0.9755, validacc: 0.9148, best epoch: 33, best auc: 0.9755, train loss: 0.20818329668933697, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 36, validauc: 0.9755, validacc: 0.9148, best epoch: 33, best auc: 0.9755, train loss: 0.2070174228534383, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 37, validauc: 0.9755, validacc: 0.9148, best epoch: 33, best auc: 0.9755, train loss: 0.20643379737579517, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 38, validauc: 0.9766, validacc: 0.9167, best epoch: 38, best auc: 0.9766, train loss: 0.20465887645339276, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 39, validauc: 0.9766, validacc: 0.9167, best epoch: 38, best auc: 0.9766, train loss: 0.20263741742782293, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 40, validauc: 0.9766, validacc: 0.9167, best epoch: 38, best auc: 0.9766, train loss: 0.2028505558326997, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 41, validauc: 0.9766, validacc: 0.9167, best epoch: 38, best auc: 0.9766, train loss: 0.20263068613961188, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 42, validauc: 0.9766, validacc: 0.9167, best epoch: 38, best auc: 0.9766, train loss: 0.2014777351591781, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 43, validauc: 0.9777, validacc: 0.9175, best epoch: 43, best auc: 0.9777, train loss: 0.20038579039521612, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 44, validauc: 0.9777, validacc: 0.9175, best epoch: 43, best auc: 0.9777, train loss: 0.19927094409788645, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 45, validauc: 0.9777, validacc: 0.9175, best epoch: 43, best auc: 0.9777, train loss: 0.1976923184021363, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 46, validauc: 0.9777, validacc: 0.9175, best epoch: 43, best auc: 0.9777, train loss: 0.19714946385928292, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 47, validauc: 0.9777, validacc: 0.9175, best epoch: 43, best auc: 0.9777, train loss: 0.19656919619242563, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 48, validauc: 0.9777, validacc: 0.9175, best epoch: 43, best auc: 0.9777, train loss: 0.19611826505768962, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 49, validauc: 0.9787, validacc: 0.9203, best epoch: 49, best auc: 0.9787, train loss: 0.19394074062961478, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 50, validauc: 0.9787, validacc: 0.9203, best epoch: 49, best auc: 0.9787, train loss: 0.1937672696931406, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 51, validauc: 0.9787, validacc: 0.9203, best epoch: 49, best auc: 0.9787, train loss: 0.19393454291586107, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 52, validauc: 0.9787, validacc: 0.9203, best epoch: 49, best auc: 0.9787, train loss: 0.1920963635468609, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 53, validauc: 0.9787, validacc: 0.9203, best epoch: 49, best auc: 0.9787, train loss: 0.19149100211734146, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 54, validauc: 0.9787, validacc: 0.9203, best epoch: 49, best auc: 0.9787, train loss: 0.19080769708472523, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 55, validauc: 0.9798, validacc: 0.9222, best epoch: 55, best auc: 0.9798, train loss: 0.19021248144921607, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 56, validauc: 0.9798, validacc: 0.9222, best epoch: 55, best auc: 0.9798, train loss: 0.18907047861598267, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 57, validauc: 0.9798, validacc: 0.9222, best epoch: 55, best auc: 0.9798, train loss: 0.18655468987990909, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 58, validauc: 0.9813, validacc: 0.9226, best epoch: 58, best auc: 0.9813, train loss: 0.18385644070621487, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 59, validauc: 0.9813, validacc: 0.9226, best epoch: 58, best auc: 0.9813, train loss: 0.18173995021682832, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 60, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.17810620447033573, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 61, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.17634980932729194, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 62, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1763793968418905, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 63, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1747839896821858, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 64, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.17523258871142933, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 65, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1740613179055892, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 66, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1738625250481254, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 67, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1734498735470199, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 68, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1725509022384919, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 69, validauc: 0.9827, validacc: 0.9258, best epoch: 60, best auc: 0.9827, train loss: 0.1711802009938311, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 70, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.171248861058517, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 71, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.17153047516838874, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 72, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.16971886250261162, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 73, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.16898360518616026, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 74, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.17030510615451055, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 75, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.16833483342018862, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 76, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.1688263870201401, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 77, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.16750357536185315, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 78, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.1676978542771483, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 79, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.166087313243929, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (4730,), ps.shape: (4730,)
+Epoch: 80, validauc: 0.9838, validacc: 0.9323, best epoch: 70, best auc: 0.9838, train loss: 0.16640889342352355, emb_type: qid, model: dkvmn, save_dir: saved_model/FrcSub_dkvmn_qid_saved_model_42_0_0.2_64_0.001_50_1_1_dec19949-7d7b-455f-b4db-ff11e0d82b9a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+fold	modelname	embtype	testauc	testacc	window_testauc	window_testacc	validauc	validacc	best_epoch
+0	dkvmn	qid	-1	-1	-1	-1	0.983847276317641	0.9323467230443975	70
+end:2024-04-25 11:04:34.386284
